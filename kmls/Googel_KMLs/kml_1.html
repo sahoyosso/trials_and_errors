@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ 
+ <body>
+ 
+	<div id="map"  style="width:100%;height:400px;"></div>
+    <div id="capture"></div>
+	
+	<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+    <script>
+      var map;
+      var src = 'http://www.opengis.net/kml/2.2';
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(46.5313985,-84.7039845),
+          zoom: 5,
+          mapTypeId: 'terrain'
+        });
+
+        var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+		}
+		
+		
+	</script>
+	
+    <script defer src="https://maps.googleapis.com/maps/api/js?key="PUT_A_WORKING_KEY_HEREEEEEE_no_spaces"&callback=initMap"></script>
+
+</body>
+
+</html>
