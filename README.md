@@ -11,3 +11,8 @@ git status
 git add
 git commit
 ```
+#### Learning to Use Github
+
+I'm still not really sure how to use Github. Found a thing in Apps (?) that is called the Learning Lab and is supposed to help beginners. Its getting discontinued soon so it re-directed me to this 
+
+[GitHub Skills](https://skills.github.com/)
